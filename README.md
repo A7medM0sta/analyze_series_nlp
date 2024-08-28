@@ -17,16 +17,24 @@
 
 
 ## Datasets
-1. ****: The dataset for the Naruto character chatbot consists of dialogues and conversations from the Naruto series, including interactions between various characters. It is used to train the LLaMA3 model for generating character-specific responses in the chatbot.
-Source: [Naruto Fandom Wiki](https://subtitlist.com/subs/naruto-season-1/english/2206507)
-2. ****: 
-Source:[transcript](https://www.kaggle.com/datasets/leonzatrax/naruto-ep-1-transcript)
+1:   [Naruto Fandom Wiki](https://subtitlist.com/subs/naruto-season-1/english/2206507)
+Naruto Fandom Wiki: This dataset contains subtitles from the first season of Naruto, providing a comprehensive collection of dialogues and interactions between characters. It is useful for training language models and chatbots. 
 
-3. ****:
-source: [Jutso](https://naruto.fandom.com/wiki/Special:BrowseData/Jutsu?limit=250&offset=0&_cat=Jutsu)
+
+2:   [transcript](https://www.kaggle.com/datasets/leonzatrax/naruto-ep-1-transcript)
+ This dataset includes the transcript of the first episode of Naruto, offering detailed text data for analysis and model training. It is ideal for text classification and theme identification tasks
+
+
+
+
+3:   [Jutso](https://naruto.fandom.com/wiki/Special:BrowseData/Jutsu?limit=250&offset=0&_cat=Jutsu)
+This dataset from the Naruto Fandom Wiki lists various Jutsu techniques used in the series, along with their descriptions and attributes. It is valuable for creating models that understand and classify different Jutsu techniques.
 ## Demo
-![demo](assets/naruto_shebdon.mov)
-
+## Video
+<video width="600" controls>
+  <source src="assets/naruto_shebdon.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 
 
