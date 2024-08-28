@@ -1,2 +1,2 @@
-<img src="assets/Naruto.jpg" alt="naruto" width="400" height="600">
+<img src="assets/Naruto.jpg" alt="naruto" width="600" height="600">
 
