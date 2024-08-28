@@ -29,12 +29,18 @@ Naruto Fandom Wiki: This dataset contains subtitles from the first season of Nar
 
 3:   [Jutso](https://naruto.fandom.com/wiki/Special:BrowseData/Jutsu?limit=250&offset=0&_cat=Jutsu)
 This dataset from the Naruto Fandom Wiki lists various Jutsu techniques used in the series, along with their descriptions and attributes. It is valuable for creating models that understand and classify different Jutsu techniques.
-## Demo
-## Video
-<video width="600" controls>
-  <source src="assets/naruto_shebdon.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
+
+
+## Demo
+[Click here to watch the demo video](https://github.com/A7medM0sta/naruto_shippuden/blob/main/assets/naruto_shebdon.mov)
+
+### Samples 
+<div style="display: flex; justify-content: space-between;">
+    <img src="assets/1.png" alt="Screenshot 1" width="700" height="500">
+    <img src="assets/2.png" alt="Screenshot 2" width="700" height="500">
+    <img src="assets/3.png" alt="Screenshot 3" width="700" height="500">
+    <img src="assets/4.png" alt="Screenshot 4" width="700" height="500">
+</div>
 
 
