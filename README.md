@@ -44,3 +44,46 @@ This dataset from the Naruto Fandom Wiki lists various Jutsu techniques used in 
 </div>
 
 
+## Installation
+* in case you have your own GPU
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/A7medM0sta/naruto_shippuden.git
+    ```
+2. Install the required packages:
+    ```bash
+   #!/bin/bash
+
+    # Create a virtual environment
+    python3 -m venv venv
+
+    # Activate the virtual environment
+    source venv/bin/activate
+
+    # Install required packages
+    pip install -r requirements.txt
+
+    # Run any initial setup scripts or commands
+    # Example: python setup.py install
+
+    echo "Setup complete. Virtual environment created and packages installed."
+    ```
+3. Run the application:
+    ```bash
+   chmod +x setup.sh
+   ./setup.sh
+    ```
+* in case you don't have your own GPU
+* you can use google colab to run the code
+* you can use the following code to install the required packages
+```python
+    git clone https://github.com/A7medM0sta/naruto_shippuden.git
+```
+```python
+    ! chmod +x setup.sh
+    ! ./setup.sh
+```
+
+
+# Thanks
+   
