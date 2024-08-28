@@ -1,8 +1,8 @@
 import gradio as gr
-from theme_classifier import ThemeClassifier
-from character_network import NamedEntityRecognizer, CharacterNetworkGenerator
-from text_classification import JutsuClassifier
-from character_chatbot import CharacterChatBot
+from src.theme_classifier import ThemeClassifier
+from src.character_network import NamedEntityRecognizer, CharacterNetworkGenerator
+from src.text_classification import JutsuClassifier
+from src.character_chatbot import CharacterChatBot
 import os
 from dotenv import load_dotenv
 load_dotenv()
