@@ -58,7 +58,7 @@ class ThemeClassifier():
 
         return themes
 
-    def get_themes(self,dtaset_path, save_path=None):
+    def get_themes(self, dtaset_path, save_path=None):
         # Read Save Output if Exists
         if save_path is not None and os.path.exists(save_path):
             df = pd.read_csv(save_path)

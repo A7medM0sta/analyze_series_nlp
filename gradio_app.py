@@ -16,7 +16,7 @@ def get_themes(theme_list_str, subtitles_path, save_path):
     theme_list = [theme for theme in theme_list if theme != 'dialogue']
     output_df = output_df[theme_list]
     output_df = output_df[theme_list].sum().reset_index()
-    output_df.columns = ['Theme','Score']
+    output_df.columns = ['Theme', 'Score']
 
     output_chart = gr.BarPlot(
         output_df,
@@ -41,11 +41,11 @@ def get_character_network(subtitles_path,ner_path):
 
     return html
 
-def classify_text(text_classifcation_model,text_classifcation_data_path,text_to_classify):
-    jutsu_classifier = JutsuClassifier(model_path = text_classifcation_model,
-                                       data_path = text_classifcation_data_path,
-                                       huggingface_token = os.getenv('huggingface_token'))
-    
+def classify_text(text_classifcation_model, text_classifcation_data_path,text_to_classify):
+    jutsu_classifier = JutsuClassifier(model_path=text_classifcation_model,
+                                       data_path=text_classifcation_data_path,
+                                       huggingface_token=os.getenv('huggingface_token'))
+
     output = jutsu_classifier.classify_jutsu(text_to_classify)
     output = output[0]
     
@@ -53,7 +53,7 @@ def classify_text(text_classifcation_model,text_classifcation_data_path,text_to_
 
 def chat_with_character_chatbot(message, history):
     character_chatbot = CharacterChatBot("AbdullahTarek/Naruto_Llama-3-8B",
-                                         huggingface_token = os.getenv('huggingface_token')
+                                         huggingface_token=os.getenv('huggingface_token')
                                          )
 
     output = character_chatbot.chat(message, history)
