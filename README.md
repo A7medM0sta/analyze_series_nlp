@@ -16,6 +16,17 @@
 
 
 
+## Datasets
+1. ****: The dataset for the Naruto character chatbot consists of dialogues and conversations from the Naruto series, including interactions between various characters. It is used to train the LLaMA3 model for generating character-specific responses in the chatbot.
+Source: [Naruto Fandom Wiki](https://subtitlist.com/subs/naruto-season-1/english/2206507)
+2. ****: 
+Source:[transcript](https://www.kaggle.com/datasets/leonzatrax/naruto-ep-1-transcript)
+
+3. ****:
+source: [Jutso](https://naruto.fandom.com/wiki/Special:BrowseData/Jutsu?limit=250&offset=0&_cat=Jutsu)
+## Demo
+![demo](assets/naruto_shebdon.mov)
+
 
 
 
